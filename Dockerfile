@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 MAINTAINER somemail@gmail.com
 RUN yum install -y apache2 \
   zip\
